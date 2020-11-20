@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Instructions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/3.3.7/flatly/bootstrap.min.css">
+    <link rel='stylesheet' href="style.css">
+    <style>
+        .jumbotron {
+            padding-left: 2em;
+            padding-right: 2em;
+        }
+        
+        .container {
+            margin-top: 70px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>感謝您參與本次實驗</h1>
+        </br>
+        <blockquote class="instr">
+            為了有更好的遊戲體驗，您可以動手調整瀏覽器視窗，直到能看到完整頁面。<br>
+            <h3><b>調整方式：按住CTRL並按減號</b></h3>
+            <BR>請仔細閱讀以下的說明以
+            <i><b>確保您完全了解如何進行遊戲。</b></i> <br><br> 若對遊戲說明有任何疑慮，您隨時可以點選「上一頁」及「下一頁」反覆閱讀遊戲說明。
+        </blockquote>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">詳閱後請按下一頁</button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" data-keyboard="false" data-backdrop="static">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="js-title-step"></h4>
+                </div>
+                <div class="modal-body">
+                    <div class="row hide" data-step="1" data-title="遊戲背景">
+                        <!-- <div class="jumbotron">##</div> -->
+                        <img class="imgDocument" src="./instructions/instr.png">
+                        <blockquote class="instr">
+                            在遊戲中，您的角色是一位島民，將與<b>其他3位玩家在線上進行即時互動。</b><br><br> 身為島上居民，您的資產有
+
+                            <i><b>種子</b></i> 以及您自己該區的<i><b>特產</b></i> (特產最後可替換為等值的錢幣)。在遊戲進行時，您將以手上的資產進行交易，並且您的目標是將手中的
+                            <b>資產數量最大化</b>。擁有愈多的種子與錢幣，便可獲得愈大面額的電子禮券。<br><br> 並且在遊戲開始時，系統會隨機指派四位島民中的其中一位擔任
+                            <b>島主</b>，您也有機會被指派擔任島主。
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="2" data-title="遊戲背景">
+                        <!-- <div class="jumbotron">This is the second step!</div> -->
+                        <img class="imgDocument" src="./instructions/instr1.png">
+                        <blockquote class="instr">
+                            遊戲開始後總共會進行 <i><b>10天</b></i>，每天又分成了兩個部分：<span style="color:rgb(248, 197, 28) " class="glyphicon glyphicon-certificate"></span> <b>白天的聚寶盆活動</b> 以及 <span style="color:#3e449a" class="glyphicon glyphicon-cloud"></span> <b>晚間的黑市交易</b>。<br><br>                            系統當天會結算所有玩家的資產，再開始下一天。每天的資產為個別計算，不進行累計。
+                        </blockquote>
+                        <blockquote class="instr">
+                            10天結束後，除了參與遊戲的固定報酬(NT$160/時)，系統將會計算玩家<b>10天總共的資產平均數量</b>，且利用以下的公式來計算支付玩家額外的電子禮券：<br><br>
+
+                            <b>(10天平均種子數 ＋ 10天平均錢幣數) x 0.2 = 玩家額外所獲得的金額</b><br><br>
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="3" data-title="報酬計算方式說明">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <img class="imgDocument" src="./instructions/instr00.png">
+
+                        <ul>
+                            <li>玩家在本遊戲中所獲得的所有報酬將於遊戲結束後以<b>線上電子禮券</b>形式支付</li><br>
+                            <li>約五到七個工作天後，系統會寄到方才您所提供的電子信箱</li><br>
+                            <li>電子禮券可用於全台 7-Eleven統一超商</li>
+                        </ul>
+                    </div>
+                    <div class="row hide" data-step="4" data-title="遊戲說明">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <h4><span style="color:rgb(248, 197, 28) " class="glyphicon glyphicon-certificate"></span> 白天的聚寶盆活動</h4>
+                        <img class="imgDocument" src="./instructions/instr2.gif">
+                        <blockquote class="instr">
+                            每天清晨時，系統會派船隻分給島上每位居民各100顆種子。
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="5" data-title="遊戲說明">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <h4><span style="color:rgb(248, 197, 28) " class="glyphicon glyphicon-certificate"></span> 白天的聚寶盆活動</h4>
+                        <img class="imgDocument" src="./instructions/instr3_1.gif">
+                        <blockquote class="instr">
+                            在此島中間有一神奇的聚寶盆，此聚寶盆為島主所擁有，只要投入種子，投入的數量會<b>變成1.5倍</b>。<br><br> 每位島民每天早上可以決定要奉獻多少手中擁有的種子給聚寶盆(範圍介於0到100)。
+
+                            <br><br>
+
+                            <b>只有島主會知道你奉獻了多少顆種子</b>，其餘玩家無法得知。下頁將介紹島主這個角色。
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="6" data-title="遊戲說明">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <h4><span style="color:rgb(248, 197, 28) " class="glyphicon glyphicon-certificate"></span> 白天的聚寶盆活動</h4>
+                        <img class="imgDocument" src="./instructions/instr4_1.gif">
+                        <blockquote class="instr">
+                            遊戲開始時，系統會指派四位玩家中的其中一位擔任<b>島主</b>。<br><br>島主擁有絕對的權力，決定如何分配被聚寶盆加碼後的種子，並且島主在遊戲中十天<b>始終為同一位玩家。</b><br><br> 島主的工作為
+                            <b>任意分配</b>被加碼後的種子給每位島民(包含島主自己)。<br> 不管每位島民的實際貢獻為何，島主可以選擇
+                            <b>平均分配種子給所有玩家們</b>，或島主也可決定把<b>所有種子都分配給自己</b>，又或是<b>介於這兩者之間的所有分配方式也都可行</b>。島主具有權利可以自行決定如何分配。
+                        </blockquote>
+                        <blockquote class="instr">
+                            舉例來說，若每位玩家都選擇奉獻50顆種子，聚寶盆中總共將會有200顆種子 (50顆種子 x 4位玩家)，此時神奇的聚寶盆便會將這200顆種子增加為300顆 (200顆種子 x 1.5) ，而島主可以將這300顆種子任意分配給每位島民(包括自己)。
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="7" data-title="遊戲說明">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <h4><span style="color:#3e449a" class="glyphicon glyphicon-cloud"></span> 晚間的黑市交易</h4>
+                        <img class="imgDocument" src="./instructions/instr5.gif">
+                        <blockquote class="instr">
+                            除了種子外，每位島民還可以透過自己該區的<i><b>特產</b></i> 來賺錢，每天每位島民都會產出 <b>24單位的特產</b>。
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="8" data-title="遊戲說明">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <h4><span style="color:#3e449a" class="glyphicon glyphicon-cloud"></span> 晚間的黑市交易</h4>
+                        <img class="imgDocument" src="./instructions/instr6.gif">
+                        <blockquote class="instr">
+                            到了晚上，島民可以到黑市中與其他玩家進行交易。<br><br> 黑市交易中，每位島民可以
+                            <b>任意分配自己的特產給四位玩家(包含自己)，但此時無法得知其他玩家分配給您的特產數量。</b>
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="9" data-title="遊戲說明">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <h4><span style="color:#3e449a" class="glyphicon glyphicon-cloud"></span> 晚間的黑市交易</h4>
+                        <img class="imgDocument" src="./instructions/instr7_0.png">
+                        <blockquote class="instr">
+                            黑市交易後，系統會利用玩家手中擁有的食材製作便當，不同菜色數量的便當可以獲得不同數量的錢幣，規則如下：<br><br>
+                            <ul>
+                                <li>每四種不同種類的食材，可以製作一個四色便當，<b>每一個四色便當可以換得 8 枚錢幣</b></li><br>
+                                <li>每三種不同種類的食材，可以製作一個三色便當，<b>每一個三色便當可以換得 5 枚錢幣</b></li><br>
+                                <li>每兩種不同種類的食材，可以製作一個雙色便當，<b>每一個雙色便當可以換得 3 枚錢幣</b></li><br>
+                                <li>若手上只有剩下一種食材，則<b>每一單位食材可以換得 1 枚錢幣</b></li>
+                            </ul>
+                        </blockquote>
+                        <p align="center" style="font-size:14px"> 下頁將會以更多圖表舉例說明便當換取錢幣的計算方式。 </p>
+                    </div>
+                    <div class="row hide" data-step="10" data-title="黑市錢幣的計算方式">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <blockquote class="instr">下圖表可以發現雖然玩家獲得的食材數量皆為10單位，但由於獲得食材的種類數量不同，可以製作不同菜色數量的便當，最後所得到的錢幣數量也不同。</blockquote>
+                        <img class="imgDocument" src="./instructions/aaa.001.png">
+                        <img class="imgDocument" style="margin-top:-8%" src="./instructions/aaa.002.png">
+                    </div>
+                    <div class="row hide" data-step="11" data-title="黑市錢幣的計算方式">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <blockquote class="instr">下圖表可以發現雖然玩家獲得的食材數量皆為10單位，但由於獲得食材的種類數量不同，可以製作不同菜色數量的便當，最後所得到的錢幣數量也不同。</blockquote>
+                        <img class="imgDocument" src="./instructions/aaa.003.png">
+                        <img class="imgDocument" style="margin-top:-8%" src="./instructions/aaa.004.png">
+                    </div>
+                    <div class="row hide" data-step="12" data-title="每天的交易現場">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <blockquote class="instr">
+                            <h4><i><span style="color:rgb(248, 197, 28) " class="glyphicon glyphicon-certificate"></span> 白天的聚寶盆活動</i></h4>
+                            在聚寶盆活動中，島民們可以<b>決定自己想要奉獻多少顆種子給聚寶盆(範圍介於0到100)。</b>
+                            <br><br> 當所有島民都做好決定後，神奇的聚寶盆會使盆中的種子增加為1.5倍。系統將指派島主可以
+
+                            <b>任意分配這些種子</b>給全部玩家。當島主分配完種子之後，您將會在螢幕上看到您所獲得到的種子數量。
+                        </blockquote>
+                        <blockquote class="instr">
+                            <h4><i><span style="color:#3e449a" class="glyphicon glyphicon-cloud"></span> 晚間的黑市交易</i></h4>
+                            黑市交易中，您手上會有24單位的特產，並且您可以<b>決定如何分配給四位島民(包括您自己)</b>，且一定要分完。<br><br> 當所有島民都完成自己特產的分配後，您將會在螢幕上看到每位玩家給予您多少食材，並且系統會幫您計算各種不同菜色的便當數量，以及您所獲得的錢幣。
+                        </blockquote>
+                        <blockquote class="instr">
+                            <h4><i>當天的資產總結</i></h4>
+                            當白天的聚寶盆活動與晚間的黑市交易都結束後，您將會在螢幕上看到：每位島民當天總共獲得多少顆種子以及多少枚錢幣。 <br><br><br> 遊結束後系統將會以
+                            <b>10天的平均資產總結</b>來計算額外的電子禮券金額。
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="13" data-title="遊戲連線注意事項">
+                        <!-- <div class="jumbotron">This is the last step!</div> -->
+                        <blockquote class="instr">
+                            因為本實驗為與其他玩家進行線上即時互動，因此每回合交易時，您必須在合理時間內做出決定。
+                            <br><br> 如果您在遊戲中閒置的時間過長，您將
+                            <b>喪失在此實驗期間可能獲得的任何獎金。</b>
+                            <br><br> 如果您的遊戲合作夥伴遇到斷線問題，遊戲會立即終止，但您仍將獲得完成實驗的基本報酬。
+                            <br><br> 若您在遊戲中有遇到任何問題，例如頁面無法載入或遊戲無法順利運作，請您嘗試
+                            <b style="font-size: 20px;">「重新整理網頁」</b>！！！
+                        </blockquote>
+                    </div>
+                    <div class="row hide" data-step="14" data-title="進入遊戲" align='center'>
+                        <blockquote class="instr">若您已完全了解遊戲規則後，請先複製以下遊戲ID，<br>再按下下方「遊戲開始」</blockquote>
+                        <blockquote class="instr">您的遊戲ID：ibvAWJpYXYGkAJ3k9</blockquote>
+                        <a href='https://chenlabonline.au.meteorapp.com/' target="_blank"><button type="button" class="btn btn-success js-btn-step btn-lg">遊戲開始</button></a>
+
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning js-btn-step" data-orientation="previous"></button>
+                    <button type="button" class="btn btn-success js-btn-step" data-orientation="next"></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+    <script src="https://netdna.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="dist/modal-steps.min.js"></script>
+    <script>
+        $('#myModal').modalSteps();
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</body>
+
+</html>
